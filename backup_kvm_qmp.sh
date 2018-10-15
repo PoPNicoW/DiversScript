@@ -3,7 +3,7 @@
 function post_to_slack () {
   # format message as a code block ```${msg}```
   SLACK_MESSAGE="\`\`\`$1\`\`\`"
-  SLACK_URL=https://hooks.slack.com/services/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
+  SLACK_URL=https://hooks.slack.com/services/
 
   case "$2" in
     INFO)
